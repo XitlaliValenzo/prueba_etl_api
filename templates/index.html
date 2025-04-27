@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extraer numero</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container-fluid p-5">
+    <h1>Extraer un número</h1>
+    <br>
+    {% if mensaje %}
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>{{ mensaje }}</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    {% endif %}
+    <br>
+    <form action="/extraer" method="POST">
+      <div class="mb-3">
+        <label for="numero" class="form-label">Ingresa un numero en el rango de 1 a 100</label>
+        <input type="number" class="form-control" id="numero" name="numero" min="1" max="100" required>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-success">Extraer número</button>
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
