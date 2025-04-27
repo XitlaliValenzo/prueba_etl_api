@@ -1,10 +1,10 @@
 # Sección 1: Procesamiento y Transferencia de Datos
 
 El procesamiento y análisis de los datos se realizó utilizando **Jupyter Notebooks**, lo que permitió una visualización y un análisis más eficiente de los mismos.  
-**Archivo utilizado**: `etl.ipynb`  
-**Base de datos utilizada**: **MySQL**, seleccionada debido a su robustez y capacidad de manejo de grandes volúmenes de datos.  
-**Formato de extracción de datos**: CSV, ya que es un formato ampliamente compatible y adecuado para la transferencia de grandes cantidades de información.  
-**Principales retos**: Uno de los mayores desafíos fue la limpieza de los datos, para asegurar que la integridad de la información no se viera comprometida durante el proceso.
+* **Archivo del repositorio**: `etl.ipynb`  
+* **Base de datos utilizada**: **MySQL**, seleccionada debido a su robustez y capacidad de manejo de grandes volúmenes de datos.  
+* **Formato de extracción de datos**: CSV, ya que es un formato ampliamente compatible y adecuado para la transferencia de grandes cantidades de información.  
+* **Principales retos**: Uno de los mayores desafíos fue la limpieza de los datos, para asegurar que la integridad de la información no se viera comprometida durante el proceso.
 
 # Sección 2: API
 
